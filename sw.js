@@ -10,7 +10,8 @@ self.addEventListener('install', function (event) {
         '/',
         '/index.html',
         '/styles.css',
-        '/app.js',
+        'src/app.jsx',
+        'src/index.css',
       ]);
     })
   )

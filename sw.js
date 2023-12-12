@@ -8,6 +8,7 @@ self.addEventListener('install', function (event) {
     caches.open(CACHE_NAME).then(function (cache) {
       return cache.addAll([
         '/',
+        '/src/',
         '/src/app.jsx',
         '/src/index.css',
         '/src/main.jsx',
@@ -21,6 +22,33 @@ self.addEventListener('install', function (event) {
         '/src/components/Product/index.jsx',
         '/src/components/Inspiration/index.jsx',
         '/src/assets/react.svg',
+        '/pulbic/',
+        '/public/imagens/banner.png',
+        '/public/imagens/bedroom.png',
+        '/public/imagens/card1.png',
+        '/public/imagens/card2.png',
+        '/public/imagens/card3.png',
+        '/public/imagens/card4.png',
+        '/public/imagens/card5.png',
+        '/public/imagens/card6.png',
+        '/public/imagens/card7.png',
+        '/public/imagens/card8.png',
+        '/public/imagens/carrinhoIcon.png',
+        '/public/imagens/coracaoIcon.png',
+        '/public/imagens/Dining.png',
+        '/public/imagens/IconLogo.png',
+        '/public/imagens/IconLogo512.png',
+        '/public/imagens/imgInspiration.png',
+        '/public/imagens/imgInspiration1.png',
+        '/public/imagens/imgInspiration2.png',
+        '/public/imagens/imgInspiration3.png',
+        '/public/imagens/.png',
+        '/public/imagens/card4.png',
+        '/public/imagens/card4.png',
+        '/public/imagens/card4.png',
+        '/public/imagens/card4.png',
+
+
       ]);
     })
   )

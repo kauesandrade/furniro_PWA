@@ -8,11 +8,19 @@ self.addEventListener('install', function (event) {
     caches.open(CACHE_NAME).then(function (cache) {
       return cache.addAll([
         '/',
-        '/index.html',
-        '/styles.css',
         '/src/app.jsx',
         '/src/index.css',
         '/src/main.jsx',
+        '/src/components/Banner/index.jsx',
+        '/src/components/Browse/index.jsx',
+        '/src/components/Cards/index.jsx',
+        '/src/components/Footer/index.jsx',
+        '/src/components/Header/index.jsx',
+        '/src/components/Information/index.jsx',
+        '/src/components/InformationCards/index.jsx',
+        '/src/components/Product/index.jsx',
+        '/src/components/Inspiration/index.jsx',
+        '/src/assets/react.svg',
       ]);
     })
   )

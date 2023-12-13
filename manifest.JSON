@@ -3,19 +3,19 @@
   "description": "PWA Test",
   "dir": "ltr",
   "display": "standalone",
-  "name": "furniro-pwa.vercel",
+  "name": "Furniro PWA - Test",
   "orientation": "any",
   "scope": "/",
-  "short_name": "furniro-pwa.vercel",
+  "short_name": "Furniro PWA",
   "start_url": "/",
   "theme_color": "#b88e2f",
   "categories": [],
   "screenshots": [],
   "icons": [
     {
-      "src": "/imagens/IconLogo.png",
+      "src": "/public/imagens/IconLogo512.png",
       "type": "image/png",
-      "sizes": "269x230"
+      "sizes": "512x512"
     }
   ],
   "shortcuts": []

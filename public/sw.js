@@ -7,7 +7,6 @@ self.addEventListener('install', function (event) {
   event.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
       return cache.addAll([
-        '/',
         '/vite.svg',
         '/imagens/banner.png',
         '/imagens/bedroom.png',
